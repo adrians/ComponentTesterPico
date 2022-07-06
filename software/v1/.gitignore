@@ -1,0 +1,21 @@
+# directories
+_deps
+CMakeFiles
+elf2uf2
+generated
+pioasm
+pico-sdk
+
+# generated binaries
+*.bin
+*.dis
+*.elf
+*.elf.map
+*.hex
+*.uf2
+
+# other files
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
