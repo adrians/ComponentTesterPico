@@ -21,6 +21,11 @@ mkdir x
 sudo mount /dev/sdb1 x && sudo cp hello_usb.uf2 ./x && sudo umount x
 ```
 
+Reindent the code:
+```bash
+indent -kr -nut -brf -l120 hello_usb.c
+```
+
 Test:
 ```bash
 cat /dev/ttyACM0
